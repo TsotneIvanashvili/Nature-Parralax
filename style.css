@@ -279,10 +279,17 @@ body {
   animation: scrollPulse 2s ease-in-out infinite;
 }
 
+.aa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%
+  ;
+}
+
 .hero-stats {
-  position: absolute;
-  bottom: 3rem;
-  left: 50%;
+
   transform: translateX(-50%);
   z-index: 2;
   display: flex;
